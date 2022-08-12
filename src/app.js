@@ -9,7 +9,7 @@ canvas.height = window.innerHeight;
 canvas.style.height = canvas.height;
 document.body.append(canvas);
 const ctx = canvas.getContext("2d");
-const treeCount = Math.random() * 10 + 5;
+const treeCount = Math.random() * 20 + 10;
 showRandomTree(treeCount, treeCount);
 
 async function showRandomTree(count, n) {
