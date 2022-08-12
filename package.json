@@ -1,0 +1,24 @@
+{
+  "name": "forest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "@parcel/resolver-glob": "^2.7.0",
+    "@parcel/transformer-image": "^2.7.0",
+    "browserify": "^17.0.0",
+    "canvas": "^2.9.3",
+    "import": "^0.0.6",
+    "node-p5": "^1.0.4"
+  }
+}
